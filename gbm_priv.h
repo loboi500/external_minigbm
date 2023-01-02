@@ -1,32 +1,3 @@
-/*
- * Copyright 2014 The Chromium OS Authors. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be
- * found in the LICENSE file.
- */
-
-#ifndef GBM_PRIV_H
-#define GBM_PRIV_H
-
-#include <stdint.h>
-#include <stdlib.h>
-#include <sys/types.h>
-
-#include "drv.h"
-#include "gbm.h"
-
-struct gbm_device {
-	struct driver *drv;
-};
-
-struct gbm_surface {
-};
-
-struct gbm_bo {
-	struct gbm_device *gbm;
-	struct bo *bo;
-	uint32_t gbm_format;
-	void *user_data;
-	void (*destroy_user_data)(struct gbm_bo *, void *);
-};
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:41dc5f4d7672f8a286777f2c16e391aab93a6eeb2f18a97cc65c752ae632e7cb
+size 545

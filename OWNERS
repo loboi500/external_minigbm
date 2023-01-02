@@ -1,10 +1,3 @@
-gurchetansingh@chromium.org
-hoegsberg@chromium.org
-marcheu@chromium.org
-stevensd@chromium.org
-tfiga@chromium.org
-
-# Also natsu@google.com is great for gralloc/Android stuff but doesn't have a
-# chromium account.
-# So any team members can +2
-*
+version https://git-lfs.github.com/spec/v1
+oid sha256:02d4137656b21c6f997587c18b7d074f70ef3d9b61567043ad93f60a77d3a4a6
+size 243

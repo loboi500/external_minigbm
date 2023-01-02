@@ -1,10 +1,3 @@
-#!/bin/sh
-# Copyright 2017 The Chromium OS Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-find \
-	'(' -name '*.[ch]' -or -name '*.cc' ')' \
-	-not -name 'virtgpu_drm.h' -not -name 'i915_drm.h' \
-	-not -name 'gbm.h' -not -name 'virgl_hw.h' \
-	-not -name 'virgl_protocol.h' \
-	-exec clang-format -style=file -i {} +
+version https://git-lfs.github.com/spec/v1
+oid sha256:82a42b1d9dd9ea6da77ace922b8adc065215742fd56973c3c8813df6fd1ac8ff
+size 398

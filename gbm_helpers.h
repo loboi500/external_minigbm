@@ -1,12 +1,3 @@
-/*
- * Copyright 2016 The Chromium OS Authors. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be
- * found in the LICENSE file.
- */
-
-#ifndef GBM_HELPERS_H
-#define GBM_HELPERS_H
-
-uint64_t gbm_convert_usage(uint32_t usage);
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc08e74ef5a43f70df5f5afbcd1ef15c2fd95a24250631e7258c796a05c1f481
+size 273
